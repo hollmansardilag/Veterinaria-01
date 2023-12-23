@@ -1,0 +1,117 @@
+/*GENERAL*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+  }
+
+/*ENCABEZADO*/
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #004AAD;
+}
+
+main h1 img {
+    height: 250px;
+    width: 250px;
+}
+
+main .greeting {
+    background-color: red;
+    color: yellow;
+    margin: 10px;
+}
+
+/*CONTENIDO*/
+
+header {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header nav .enlaces {
+    display: inline-block;
+    background: #004AAD;
+    padding: 10px;
+    margin: 0px 20px 30px 20px;
+    border-radius: 20px;
+}
+
+header nav .enlaces-especiales {
+    display: inline-block;
+    color: white;
+    background: green;
+    padding: 10px;
+    margin: 0px 20px 30px 20px;
+    border-radius: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: x-large;
+}
+
+.parrafos {
+    color: #004AAD;
+}
+
+.titulos-especialidades {
+    display: block;
+    text-align: center;
+    color: white;
+    background: #004AAD;
+    font-size: 30px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+}
+
+/*IMÁGENES*/
+
+header .fotos-especialidades {
+    height: 600px;
+    width: 400px;
+}
+
+header .div-fotos-especialidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .logos-redes {
+    display: inline-block;
+    padding: 10px;
+}
+
+footer div img {
+    height: 50px;
+    width: 50px;
+}
+
+/*PIE DE PÁGINA*/
+
+footer {
+    clear: both;
+    background-color: white;
+    color: #004AAD;
+    text-align: center;
+    padding: 10px;
+}
+
+footer div {
+    color: #004AAD;
+    padding: 10px;
+}
